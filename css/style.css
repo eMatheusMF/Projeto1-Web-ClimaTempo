@@ -1,0 +1,314 @@
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("/css/imagens/Roboto-Bold.ttf");
+}
+
+body {
+  margin: 0px;
+  background-size: cover;
+}
+
+.menu {
+  display: block;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.menu div {
+  width: 22px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+}
+
+.logoclimatempo {
+  margin-left: 200px;
+  display: block;
+}
+#azul {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: #0080cd;
+  background-size: cover;
+}
+.azul {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.sp {
+  color: white;
+  margin-top: 10px;
+  margin-left: 1000px;
+  display: flex;
+}
+
+.nuvem {
+  display: block;
+  margin-top: -5px;
+  margin-left: -60px;
+  height: 30px;
+  width: 30px;
+}
+.azullogo {
+  display: block;
+  margin-top: 30px;
+  height: 32px;
+  width: 120px;
+}
+.azulbusca {
+  height: 39px;
+  width: 700px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 200px;
+  color: #ffffff;
+  background-color: #0267a3;
+  border-radius: 5px;
+}
+.azullogin {
+  display: flex;
+  position: relative;
+  height: 40px;
+  width: 170px;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 1px solid #ffffff;
+  background-color: #0080cd;
+  border-radius: 8px;
+  margin-left: 40px;
+}
+.letras {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+#azul2 {
+  display: flex;
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  background-color: #0f4783;
+  top: 80px;
+}
+.titulo {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  left: 100px;
+  color: #ffffff;
+}
+
+.branco {
+  position: fixed;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #404040;
+  top: 140px;
+  left: 105px;
+  border-radius: 7px;
+  height: 380px;
+  width: 360px;
+  background-size: cover;
+}
+
+@media screen and (max-width: 360px) {
+  .branco {
+    position: fixed;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #404040;
+    top: 200px;
+    left: 80px;
+    border-radius: 7px;
+    background-size: cover;
+  }
+}
+
+.um {
+  height: 380px;
+  width: 360px;
+}
+.linha1 {
+  position: relative;
+  margin-left: 105px;
+  margin-right: 105px;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 26px;
+}
+.linha2 {
+  position: relative;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 105px;
+  margin-right: 105px;
+  height: 60px;
+  width: 60px;
+  font-size: 60px;
+}
+
+.linha3 {
+  margin-left: 40px;
+  margin-top: 20px;
+  font: 15px;
+  font-family: "Roboto-Regular";
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.linha4 {
+  margin-left: 160px;
+  margin-top: -20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.linha5 {
+  margin-top: 30px;
+  background-color: #c5d262;
+  height: 16px;
+  width: 6px;
+  border-radius: 3px;
+  display: block;
+}
+
+.vento {
+  font-family: "Roboto-Bold";
+  padding: 5px;
+  margin-left: 20px;
+  margin-top: -15px;
+  text-transform: uppercase;
+  color: black;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.umid {
+  margin-left: 18px;
+  margin-top: -18px;
+  display: flex;
+}
+
+.km {
+  margin-left: 240px;
+  margin-top: -18px;
+}
+
+.linha6 {
+  margin-top: 40px;
+  background-color: #90cbf8;
+  height: 16px;
+  width: 6px;
+  border-radius: 3px;
+}
+
+.linha7 {
+  margin-left: 245px;
+  margin-top: -10px;
+}
+
+.info {
+  margin-top: 30px;
+  margin-left: 80px;
+  display: flex;
+}
+.informacoes {
+  color: #f9f9f9;
+  font-family: "Avenir Roman", sans-serif;
+  background: #0080cd;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 18px;
+  border-radius: 20px;
+  border: 8px solid transparent;
+  text-align: center;
+  text-decoration: none;
+  width: 180px;
+}
+
+.textclima {
+  font-size: 12px;
+  margin-top: 15px;
+  margin-left: 20px;
+  display: flex;
+  color: rgba(0, 0, 0, 0.8);
+}
+@media screen and (max-width: 360px) {
+  .textclima {
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+    color: rgba(0, 0, 0, 0.8);
+  }
+}
+.update {
+  margin-top: 0px;
+  margin-left: 40px;
+}
+
+.txthr {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.grau {
+  padding-left: 15px;
+}
+.dois {
+  height: 380px;
+  width: 750px;
+  left: 495px;
+}
+
+.imagem {
+  height: 365;
+  width: 365;
+  left: 495px;
+  background-size: cover;
+}
+
+@media screen and (max-width: 360px) {
+  .informacoes {
+    color: #f9f9f9;
+    font-family: "Avenir Roman", sans-serif;
+    background: #0080cd;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 20px;
+    border: 8px solid transparent;
+    text-align: center;
+    text-decoration: none;
+    width: 180px;
+  }
+}
+
+.texto1 {
+  margin-left: 535px;
+  margin-right: 15px;
+  font-size: 24px;
+  line-height: 30px;
+}
+.texto2 {
+  position: relative;
+  margin-left: 535px;
+  margin-right: 15px;
+  color: #868585;
+  font-size: 15px;
+  line-height: 25px;
+}
+::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.562);
+}
